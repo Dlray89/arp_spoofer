@@ -29,8 +29,8 @@ def restore_sys(dst_ip, src_ip):
     scapy.send(packet, count=4, verbose=False)
     
     
-target_ip = '10.0.0.1'
-gateway_ip = '10.0.0.168'
+target_ip = 'Your route IP'
+gateway_ip = 'Target IP Here'
 try:
     sent_packet_count = 0
     while True:
